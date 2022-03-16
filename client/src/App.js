@@ -1,7 +1,7 @@
 import './App.css';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-const url = '/Users/mima1234/Codes/music-docker/src/白山茶.mp3'
+const url = require('./songs/白山茶.mp3')
 function App() {
     const Player = () => (
         <AudioPlayer
